@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h2 >How to implement CRUD operations via API controllers in an ASP.NET Core with Razor Pages project</h2>
+</div>
+
+@(Html.DevExtreme().DataGrid<T845675test.Models.Employee>()
+    .ID("grid")
+    .Height(400)
+    .DataSource(d => d.Mvc()
+        .Controller("DataGridEmployees")
+        .LoadAction("Get")
+        .UpdateAction("Put")
+        .InsertAction("Post")
+        .DeleteAction("Delete")
+        .Key("ID")
+    )
+    .ShowBorders(true)
+    .Paging(paging => paging.Enabled(false))
+    .Columns(columns => {
+        columns.Add().DataField("Prefix").Caption("Title");
+        columns.Add().DataField("FirstName");
+        columns.Add().DataField("LastName");
+        columns.Add().DataField("Position").Width(130);
+        columns.Add().DataField("BirthDate").DataType(GridColumnDataType.Date).Width(125);
+    })
+    .Editing(e => e
+        .Mode(GridEditMode.Cell)
+        .RefreshMode(GridEditRefreshMode.Reshape)
+        .AllowAdding(true)
+        .AllowDeleting(true)
+        .AllowUpdating(true)
+    )
+)
