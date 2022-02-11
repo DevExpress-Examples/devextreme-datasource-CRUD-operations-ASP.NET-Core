@@ -6,7 +6,7 @@
 
 # DataSource for DevExtreme - How to implement CRUD operations with API controllers in ASP.NET Core in a Razor Pages project
 
-This example demonstrates how to bind DataGrid to a controller action and implement [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations in a Razor Pages project.
+This example demonstrates how to bind DataGrid to a controller action and implement CRUD operations (such as Load, Insert, Update, and Delete) in a Razor Pages project.
 
 Specify the Controller, LoadAction, UpdateAction, InsertAction and DeleteAction properties so that DataGrid's [DataSource](https://js.devexpress.com/DevExtreme/ApiReference/Data_Layer/DataSource/) can perform CRUD operations. In the corresponding controller, implement data operations in the actions.
 
@@ -23,8 +23,9 @@ Note that it is necessary to correctly setup routing in Razor Pages and controll
 ## Documentation
 
 - [Routing in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.1)
-- [Data Source Examples](https://js.devexpress.com/DevExtreme/Guide/Data_Binding/Data_Source_Examples/#Custom_Sources)
+- [Data Source Examples](https://js.devexpress.com/DevExtreme/Guide/Data_Binding/Data_Source_Examples)
 
 ## More Examples
 
+- [DataGrid - CRUD Operations Demo](https://demos.devexpress.com/ASPNetCore/Demo/DataGrid/CRUDOperations/)
 - [DataGrid - How to implement a context menu for editing, adding and deleting rows](https://github.com/DevExpress-Examples/datagrid-how-to-utilize-crud-operations-using-the-context-menu-t123309)
