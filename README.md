@@ -13,7 +13,7 @@ Specify the Controller, LoadAction, UpdateAction, InsertAction, and DeleteAction
 Note that it is necessary to set up routing correctly in Razor Pages and controllers.
 
 <!-- default file list -->
-## Files to Look At
+## Files to Review
 
 - [DataGridEmployeesController.cs](./CS/CS/Controllers/DataGridEmployeesController.cs)
 - [Index.cshtml](./CS/CS/Pages/Index.cshtml)
