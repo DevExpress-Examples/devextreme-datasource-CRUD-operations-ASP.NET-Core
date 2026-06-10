@@ -306,3 +306,9 @@ TesterMetadata.xml
 
 # Backup files
 .bak
+
+# Generated client-side resources (gulp add-resources)
+**/wwwroot/css/vendor.css
+**/wwwroot/js/vendor.js
+**/wwwroot/css/fonts/
+**/wwwroot/css/icons/
