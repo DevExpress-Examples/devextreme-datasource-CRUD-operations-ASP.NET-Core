@@ -16,8 +16,8 @@ Note that it is necessary to set up routing correctly in Razor Pages and control
 <!-- default file list -->
 ## Files to Review
 
-- [DataGridEmployeesController.cs](./CS/CS/Controllers/DataGridEmployeesController.cs)
-- [Index.cshtml](./CS/CS/Pages/Index.cshtml)
+- [DataGridEmployeesController.cs](./ASP.NET%20Core/Controllers/DataGridEmployeesController.cs)
+- [Index.cshtml](./ASP.NET%20Core/Pages/Index.cshtml)
 
 <!-- default file list end -->
 
